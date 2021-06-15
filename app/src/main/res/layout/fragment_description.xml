@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Fragments.DescriptionFragment">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:src="@drawable/doctor"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+        <Button
+            android:id="@+id/findClinics"
+            android:text="Find Clinics"
+            android:textColor="@color/white"
+            android:background="@drawable/round_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            />
+
+        <Button
+            android:id="@+id/orderMedicines"
+            android:text="Order Medicines"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            />
+
+        <Button
+            android:id="@+id/myOrderedMedicines"
+            android:text="My Ordered Medicines"
+            android:background="@drawable/round_button"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/shape"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/descriptionFragment"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>

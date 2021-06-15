@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "247402286701",
+    "project_id": "skincare-48891",
+    "storage_bucket": "skincare-48891.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247402286701:android:f3393e39abc7ab92c1b964",
+        "android_client_info": {
+          "package_name": "com.example.skincare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247402286701-r91hhskvvc5j4vmjp6l5qti9h8lpolfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjoHqyrtpR9eDqaN4gqZoD7xkXbeAbfJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247402286701-r91hhskvvc5j4vmjp6l5qti9h8lpolfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
